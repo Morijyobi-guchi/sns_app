@@ -1,0 +1,19 @@
+
+=== 2025-02-06 10:07:07.773984 ===
+Traceback (most recent call last):
+  File "c:\Users\mukaiguti\temp\sns_app\main.py", line 45, in show_login
+    LoginView(
+  File "c:\Users\mukaiguti\temp\sns_app\views\login_view.py", line 103, in __init__
+    self.create_widgets()
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LoginView' object has no attribute 'create_widgets'
+
+=== 2025-02-07 19:51:03.448890 ===
+Traceback (most recent call last):
+  File "c:\Users\mukaiguti\temp\sns_app\main.py", line 130, in <module>
+    app.run()
+  File "c:\Users\mukaiguti\temp\sns_app\main.py", line 118, in run
+    self.root.mainloop()
+  File "C:\Users\mukaiguti\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
